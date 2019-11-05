@@ -10,12 +10,16 @@
 		D61FA4EE236BF83B00E91389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D61FA4ED236BF83B00E91389 /* AppDelegate.m */; };
 		D61FA4F1236BF83B00E91389 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61FA4F0236BF83B00E91389 /* ViewController.m */; };
 		D61FA4F4236BF83B00E91389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61FA4F2236BF83B00E91389 /* Main.storyboard */; };
-		D61FA4F7236BF83B00E91389 /* customCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D61FA4F5236BF83B00E91389 /* customCamera.xcdatamodeld */; };
 		D61FA4F9236BF83D00E91389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61FA4F8236BF83D00E91389 /* Assets.xcassets */; };
 		D61FA4FC236BF83D00E91389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61FA4FA236BF83D00E91389 /* LaunchScreen.storyboard */; };
 		D61FA4FF236BF83D00E91389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D61FA4FE236BF83D00E91389 /* main.m */; };
 		D61FA509236BF83D00E91389 /* customCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D61FA508236BF83D00E91389 /* customCameraTests.m */; };
 		D61FA514236BF83D00E91389 /* customCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D61FA513236BF83D00E91389 /* customCameraUITests.m */; };
+		D6231A28236D2C90006B249E /* DKVideoAssetHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = D6231A27236D2C90006B249E /* DKVideoAssetHandle.m */; };
+		D6231A2B236D4BE6006B249E /* DKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6231A2A236D4BE6006B249E /* DKViewController.m */; };
+		D6231A2E236D56A8006B249E /* DKCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6231A2D236D56A8006B249E /* DKCameraManager.m */; };
+		D6F57940236C0F07003CFCEC /* DKCaptureService.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5793F236C0F07003CFCEC /* DKCaptureService.m */; };
+		D6F57943236C1216003CFCEC /* DKViedoWritter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F57942236C1216003CFCEC /* DKViedoWritter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +46,6 @@
 		D61FA4EF236BF83B00E91389 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D61FA4F0236BF83B00E91389 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D61FA4F3236BF83B00E91389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D61FA4F6236BF83B00E91389 /* customCamera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = customCamera.xcdatamodel; sourceTree = "<group>"; };
 		D61FA4F8236BF83D00E91389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D61FA4FB236BF83D00E91389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D61FA4FD236BF83D00E91389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +56,16 @@
 		D61FA50F236BF83D00E91389 /* customCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61FA513236BF83D00E91389 /* customCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customCameraUITests.m; sourceTree = "<group>"; };
 		D61FA515236BF83E00E91389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6231A26236D2C90006B249E /* DKVideoAssetHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKVideoAssetHandle.h; sourceTree = "<group>"; };
+		D6231A27236D2C90006B249E /* DKVideoAssetHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKVideoAssetHandle.m; sourceTree = "<group>"; };
+		D6231A29236D4BE6006B249E /* DKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKViewController.h; sourceTree = "<group>"; };
+		D6231A2A236D4BE6006B249E /* DKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKViewController.m; sourceTree = "<group>"; };
+		D6231A2C236D56A8006B249E /* DKCameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKCameraManager.h; sourceTree = "<group>"; };
+		D6231A2D236D56A8006B249E /* DKCameraManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKCameraManager.m; sourceTree = "<group>"; };
+		D6F5793E236C0F07003CFCEC /* DKCaptureService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKCaptureService.h; sourceTree = "<group>"; };
+		D6F5793F236C0F07003CFCEC /* DKCaptureService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKCaptureService.m; sourceTree = "<group>"; };
+		D6F57941236C1216003CFCEC /* DKViedoWritter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKViedoWritter.h; sourceTree = "<group>"; };
+		D6F57942236C1216003CFCEC /* DKViedoWritter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKViedoWritter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,16 +116,18 @@
 		D61FA4EB236BF83B00E91389 /* customCamera */ = {
 			isa = PBXGroup;
 			children = (
+				D6F5793D236C0EE3003CFCEC /* CaptureService */,
 				D61FA4EC236BF83B00E91389 /* AppDelegate.h */,
 				D61FA4ED236BF83B00E91389 /* AppDelegate.m */,
 				D61FA4EF236BF83B00E91389 /* ViewController.h */,
 				D61FA4F0236BF83B00E91389 /* ViewController.m */,
+				D6231A29236D4BE6006B249E /* DKViewController.h */,
+				D6231A2A236D4BE6006B249E /* DKViewController.m */,
 				D61FA4F2236BF83B00E91389 /* Main.storyboard */,
 				D61FA4F8236BF83D00E91389 /* Assets.xcassets */,
 				D61FA4FA236BF83D00E91389 /* LaunchScreen.storyboard */,
 				D61FA4FD236BF83D00E91389 /* Info.plist */,
 				D61FA4FE236BF83D00E91389 /* main.m */,
-				D61FA4F5236BF83B00E91389 /* customCamera.xcdatamodeld */,
 			);
 			path = customCamera;
 			sourceTree = "<group>";
@@ -133,6 +148,21 @@
 				D61FA515236BF83E00E91389 /* Info.plist */,
 			);
 			path = customCameraUITests;
+			sourceTree = "<group>";
+		};
+		D6F5793D236C0EE3003CFCEC /* CaptureService */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5793E236C0F07003CFCEC /* DKCaptureService.h */,
+				D6F5793F236C0F07003CFCEC /* DKCaptureService.m */,
+				D6F57941236C1216003CFCEC /* DKViedoWritter.h */,
+				D6F57942236C1216003CFCEC /* DKViedoWritter.m */,
+				D6231A26236D2C90006B249E /* DKVideoAssetHandle.h */,
+				D6231A27236D2C90006B249E /* DKVideoAssetHandle.m */,
+				D6231A2C236D56A8006B249E /* DKCameraManager.h */,
+				D6231A2D236D56A8006B249E /* DKCameraManager.m */,
+			);
+			path = CaptureService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D61FA4F7236BF83B00E91389 /* customCamera.xcdatamodeld in Sources */,
 				D61FA4F1236BF83B00E91389 /* ViewController.m in Sources */,
+				D6231A2B236D4BE6006B249E /* DKViewController.m in Sources */,
+				D6231A28236D2C90006B249E /* DKVideoAssetHandle.m in Sources */,
 				D61FA4FF236BF83D00E91389 /* main.m in Sources */,
 				D61FA4EE236BF83B00E91389 /* AppDelegate.m in Sources */,
+				D6F57943236C1216003CFCEC /* DKViedoWritter.m in Sources */,
+				D6F57940236C0F07003CFCEC /* DKCaptureService.m in Sources */,
+				D6231A2E236D56A8006B249E /* DKCameraManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,19 +619,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D61FA4F5236BF83B00E91389 /* customCamera.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D61FA4F6236BF83B00E91389 /* customCamera.xcdatamodel */,
-			);
-			currentVersion = D61FA4F6236BF83B00E91389 /* customCamera.xcdatamodel */;
-			path = customCamera.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D61FA4E1236BF83A00E91389 /* Project object */;
 }

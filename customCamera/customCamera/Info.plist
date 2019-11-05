@@ -41,5 +41,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>我们需要权限来访问您的媒体资料来用作头像、巡店，允许吗？</string>
+	<key>NSCameraUsageDescription</key>
+	<string>我们需要获取相机权限来进行拍照,用作头像、巡店，允许吗？</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>我们需要获取您的相册权限来保存图片到图库等</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>我们需要获取您的相册权限来保存图片到图库等</string>
 </dict>
 </plist>
