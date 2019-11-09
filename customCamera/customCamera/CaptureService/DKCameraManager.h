@@ -63,7 +63,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(void)setCameraVideoZoomFactor:(CGFloat)factor device:(AVCaptureDevice *)device complete:(void(^)(BOOL isSuccess, NSError *error))complete;
 
-+(void)rampCameraVieoZoomFactor:(CGFloat)facotr device:(AVCaptureDevice *)device complete:(void(^)(BOOL isSuccess, NSError *error))complete;
 
 
 @end

@@ -258,22 +258,4 @@
     }
 }
 
-+(void)rampCameraVieoZoomFactor:(CGFloat)facotr device:(AVCaptureDevice *)device complete:(void(^)(BOOL isSuccess, NSError *error))complete{
-    NSError *error = nil;
-    if ([device lockForConfiguration:&error]) {
-        if (device.isRampingVideoZoom) {
-            [device rampToVideoZoomFactor:pow(device.activeFormat.videoMaxZoomFactor, facotr) withRate:50.0f];
-            [device unlockForConfiguration];
-            !complete?:complete(YES, nil);
-        }else{
-            [device unlockForConfiguration];
-            NSError *nError = [NSError errorWithDomain:@"com.dingkan.captureservice.CameraSet" code:-2220041 userInfo:@{NSLocalizedDescriptionKey:@"device no support isRampingVideoZoom"}];
-            !complete?:complete(NO, nError);
-        }
-    }else{
-        [device unlockForConfiguration];
-        NSError *nError = [NSError errorWithDomain:@"com.dingkan.captureservice.CameraSet" code:-2220062 userInfo:@{NSLocalizedDescriptionKey:@"device no support flash"}];
-        !complete?:complete(NO, nError);
-    }
-}
 @end
