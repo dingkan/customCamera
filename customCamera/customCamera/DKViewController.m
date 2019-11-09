@@ -25,6 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     
     _service = [[DKCaptureService alloc]init];
     _service.delegate = self;

@@ -18,6 +18,8 @@
 		D6231A28236D2C90006B249E /* DKVideoAssetHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = D6231A27236D2C90006B249E /* DKVideoAssetHandle.m */; };
 		D6231A2B236D4BE6006B249E /* DKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6231A2A236D4BE6006B249E /* DKViewController.m */; };
 		D6231A2E236D56A8006B249E /* DKCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6231A2D236D56A8006B249E /* DKCameraManager.m */; };
+		D62ADCE12376449600167EB8 /* DKSpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADCE02376449600167EB8 /* DKSpeechManager.m */; };
+		D62ADCE4237649FE00167EB8 /* DKSpeechConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADCE3237649FE00167EB8 /* DKSpeechConfig.m */; };
 		D6F57940236C0F07003CFCEC /* DKCaptureService.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5793F236C0F07003CFCEC /* DKCaptureService.m */; };
 		D6F57943236C1216003CFCEC /* DKViedoWritter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F57942236C1216003CFCEC /* DKViedoWritter.m */; };
 /* End PBXBuildFile section */
@@ -62,6 +64,10 @@
 		D6231A2A236D4BE6006B249E /* DKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKViewController.m; sourceTree = "<group>"; };
 		D6231A2C236D56A8006B249E /* DKCameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKCameraManager.h; sourceTree = "<group>"; };
 		D6231A2D236D56A8006B249E /* DKCameraManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKCameraManager.m; sourceTree = "<group>"; };
+		D62ADCDF2376449600167EB8 /* DKSpeechManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKSpeechManager.h; sourceTree = "<group>"; };
+		D62ADCE02376449600167EB8 /* DKSpeechManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSpeechManager.m; sourceTree = "<group>"; };
+		D62ADCE2237649FE00167EB8 /* DKSpeechConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKSpeechConfig.h; sourceTree = "<group>"; };
+		D62ADCE3237649FE00167EB8 /* DKSpeechConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSpeechConfig.m; sourceTree = "<group>"; };
 		D6F5793E236C0F07003CFCEC /* DKCaptureService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKCaptureService.h; sourceTree = "<group>"; };
 		D6F5793F236C0F07003CFCEC /* DKCaptureService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKCaptureService.m; sourceTree = "<group>"; };
 		D6F57941236C1216003CFCEC /* DKViedoWritter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKViedoWritter.h; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 		D61FA4EB236BF83B00E91389 /* customCamera */ = {
 			isa = PBXGroup;
 			children = (
+				D62ADCDE2376448000167EB8 /* AVSpeechSynthesizer */,
 				D6F5793D236C0EE3003CFCEC /* CaptureService */,
 				D61FA4EC236BF83B00E91389 /* AppDelegate.h */,
 				D61FA4ED236BF83B00E91389 /* AppDelegate.m */,
@@ -148,6 +155,17 @@
 				D61FA515236BF83E00E91389 /* Info.plist */,
 			);
 			path = customCameraUITests;
+			sourceTree = "<group>";
+		};
+		D62ADCDE2376448000167EB8 /* AVSpeechSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				D62ADCDF2376449600167EB8 /* DKSpeechManager.h */,
+				D62ADCE02376449600167EB8 /* DKSpeechManager.m */,
+				D62ADCE2237649FE00167EB8 /* DKSpeechConfig.h */,
+				D62ADCE3237649FE00167EB8 /* DKSpeechConfig.m */,
+			);
+			path = AVSpeechSynthesizer;
 			sourceTree = "<group>";
 		};
 		D6F5793D236C0EE3003CFCEC /* CaptureService */ = {
@@ -297,8 +315,10 @@
 			files = (
 				D61FA4F1236BF83B00E91389 /* ViewController.m in Sources */,
 				D6231A2B236D4BE6006B249E /* DKViewController.m in Sources */,
+				D62ADCE4237649FE00167EB8 /* DKSpeechConfig.m in Sources */,
 				D6231A28236D2C90006B249E /* DKVideoAssetHandle.m in Sources */,
 				D61FA4FF236BF83D00E91389 /* main.m in Sources */,
+				D62ADCE12376449600167EB8 /* DKSpeechManager.m in Sources */,
 				D61FA4EE236BF83B00E91389 /* AppDelegate.m in Sources */,
 				D6F57943236C1216003CFCEC /* DKViedoWritter.m in Sources */,
 				D6F57940236C0F07003CFCEC /* DKCaptureService.m in Sources */,
