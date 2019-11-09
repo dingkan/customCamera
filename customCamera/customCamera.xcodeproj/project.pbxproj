@@ -20,6 +20,15 @@
 		D6231A2E236D56A8006B249E /* DKCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6231A2D236D56A8006B249E /* DKCameraManager.m */; };
 		D62ADCE12376449600167EB8 /* DKSpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADCE02376449600167EB8 /* DKSpeechManager.m */; };
 		D62ADCE4237649FE00167EB8 /* DKSpeechConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADCE3237649FE00167EB8 /* DKSpeechConfig.m */; };
+		D62ADCF3237681AD00167EB8 /* THControlKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADCE9237681AD00167EB8 /* THControlKnob.m */; };
+		D62ADCF4237681AD00167EB8 /* THIndicatorLight.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADCEA237681AD00167EB8 /* THIndicatorLight.m */; };
+		D62ADCF5237681AD00167EB8 /* THPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADCEB237681AD00167EB8 /* THPlayButton.m */; };
+		D62ADCF6237681AD00167EB8 /* UIColor+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADCED237681AD00167EB8 /* UIColor+THAdditions.m */; };
+		D62ADCF7237681AD00167EB8 /* drums.caf in Resources */ = {isa = PBXBuildFile; fileRef = D62ADCF0237681AD00167EB8 /* drums.caf */; };
+		D62ADCF8237681AD00167EB8 /* guitar.caf in Resources */ = {isa = PBXBuildFile; fileRef = D62ADCF1237681AD00167EB8 /* guitar.caf */; };
+		D62ADCF9237681AD00167EB8 /* bass.caf in Resources */ = {isa = PBXBuildFile; fileRef = D62ADCF2237681AD00167EB8 /* bass.caf */; };
+		D62ADCFD237681F900167EB8 /* THMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADCFC237681F900167EB8 /* THMainViewController.m */; };
+		D62ADD01237682A900167EB8 /* DKAudioPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADD00237682A900167EB8 /* DKAudioPlayerManager.m */; };
 		D6F57940236C0F07003CFCEC /* DKCaptureService.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5793F236C0F07003CFCEC /* DKCaptureService.m */; };
 		D6F57943236C1216003CFCEC /* DKViedoWritter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F57942236C1216003CFCEC /* DKViedoWritter.m */; };
 /* End PBXBuildFile section */
@@ -68,6 +77,21 @@
 		D62ADCE02376449600167EB8 /* DKSpeechManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSpeechManager.m; sourceTree = "<group>"; };
 		D62ADCE2237649FE00167EB8 /* DKSpeechConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKSpeechConfig.h; sourceTree = "<group>"; };
 		D62ADCE3237649FE00167EB8 /* DKSpeechConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSpeechConfig.m; sourceTree = "<group>"; };
+		D62ADCE7237681AD00167EB8 /* THPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPlayButton.h; sourceTree = "<group>"; };
+		D62ADCE8237681AD00167EB8 /* UIColor+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+THAdditions.h"; sourceTree = "<group>"; };
+		D62ADCE9237681AD00167EB8 /* THControlKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THControlKnob.m; sourceTree = "<group>"; };
+		D62ADCEA237681AD00167EB8 /* THIndicatorLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THIndicatorLight.m; sourceTree = "<group>"; };
+		D62ADCEB237681AD00167EB8 /* THPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPlayButton.m; sourceTree = "<group>"; };
+		D62ADCEC237681AD00167EB8 /* THControlKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THControlKnob.h; sourceTree = "<group>"; };
+		D62ADCED237681AD00167EB8 /* UIColor+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+THAdditions.m"; sourceTree = "<group>"; };
+		D62ADCEE237681AD00167EB8 /* THIndicatorLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THIndicatorLight.h; sourceTree = "<group>"; };
+		D62ADCF0237681AD00167EB8 /* drums.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = drums.caf; sourceTree = "<group>"; };
+		D62ADCF1237681AD00167EB8 /* guitar.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = guitar.caf; sourceTree = "<group>"; };
+		D62ADCF2237681AD00167EB8 /* bass.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bass.caf; sourceTree = "<group>"; };
+		D62ADCFB237681F900167EB8 /* THMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMainViewController.h; sourceTree = "<group>"; };
+		D62ADCFC237681F900167EB8 /* THMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMainViewController.m; sourceTree = "<group>"; };
+		D62ADCFF237682A900167EB8 /* DKAudioPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAudioPlayerManager.h; sourceTree = "<group>"; };
+		D62ADD00237682A900167EB8 /* DKAudioPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAudioPlayerManager.m; sourceTree = "<group>"; };
 		D6F5793E236C0F07003CFCEC /* DKCaptureService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKCaptureService.h; sourceTree = "<group>"; };
 		D6F5793F236C0F07003CFCEC /* DKCaptureService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKCaptureService.m; sourceTree = "<group>"; };
 		D6F57941236C1216003CFCEC /* DKViedoWritter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKViedoWritter.h; sourceTree = "<group>"; };
@@ -122,6 +146,7 @@
 		D61FA4EB236BF83B00E91389 /* customCamera */ = {
 			isa = PBXGroup;
 			children = (
+				D62ADCE5237661F700167EB8 /* AVAudioPlayer&Recorder */,
 				D62ADCDE2376448000167EB8 /* AVSpeechSynthesizer */,
 				D6F5793D236C0EE3003CFCEC /* CaptureService */,
 				D61FA4EC236BF83B00E91389 /* AppDelegate.h */,
@@ -135,6 +160,7 @@
 				D61FA4FA236BF83D00E91389 /* LaunchScreen.storyboard */,
 				D61FA4FD236BF83D00E91389 /* Info.plist */,
 				D61FA4FE236BF83D00E91389 /* main.m */,
+				D62ADCEF237681AD00167EB8 /* Loops */,
 			);
 			path = customCamera;
 			sourceTree = "<group>";
@@ -166,6 +192,59 @@
 				D62ADCE3237649FE00167EB8 /* DKSpeechConfig.m */,
 			);
 			path = AVSpeechSynthesizer;
+			sourceTree = "<group>";
+		};
+		D62ADCE5237661F700167EB8 /* AVAudioPlayer&Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				D62ADCFE2376828E00167EB8 /* Tool */,
+				D62ADCFA237681F900167EB8 /* Test */,
+				D62ADCE6237681AD00167EB8 /* Views */,
+			);
+			path = "AVAudioPlayer&Recorder";
+			sourceTree = "<group>";
+		};
+		D62ADCE6237681AD00167EB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D62ADCEC237681AD00167EB8 /* THControlKnob.h */,
+				D62ADCE9237681AD00167EB8 /* THControlKnob.m */,
+				D62ADCEE237681AD00167EB8 /* THIndicatorLight.h */,
+				D62ADCEA237681AD00167EB8 /* THIndicatorLight.m */,
+				D62ADCE7237681AD00167EB8 /* THPlayButton.h */,
+				D62ADCEB237681AD00167EB8 /* THPlayButton.m */,
+				D62ADCE8237681AD00167EB8 /* UIColor+THAdditions.h */,
+				D62ADCED237681AD00167EB8 /* UIColor+THAdditions.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D62ADCEF237681AD00167EB8 /* Loops */ = {
+			isa = PBXGroup;
+			children = (
+				D62ADCF0237681AD00167EB8 /* drums.caf */,
+				D62ADCF1237681AD00167EB8 /* guitar.caf */,
+				D62ADCF2237681AD00167EB8 /* bass.caf */,
+			);
+			path = Loops;
+			sourceTree = "<group>";
+		};
+		D62ADCFA237681F900167EB8 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				D62ADCFB237681F900167EB8 /* THMainViewController.h */,
+				D62ADCFC237681F900167EB8 /* THMainViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		D62ADCFE2376828E00167EB8 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D62ADCFF237682A900167EB8 /* DKAudioPlayerManager.h */,
+				D62ADD00237682A900167EB8 /* DKAudioPlayerManager.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		D6F5793D236C0EE3003CFCEC /* CaptureService */ = {
@@ -286,7 +365,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62ADCF8237681AD00167EB8 /* guitar.caf in Resources */,
+				D62ADCF7237681AD00167EB8 /* drums.caf in Resources */,
 				D61FA4FC236BF83D00E91389 /* LaunchScreen.storyboard in Resources */,
+				D62ADCF9237681AD00167EB8 /* bass.caf in Resources */,
 				D61FA4F9236BF83D00E91389 /* Assets.xcassets in Resources */,
 				D61FA4F4236BF83B00E91389 /* Main.storyboard in Resources */,
 			);
@@ -313,12 +395,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62ADCFD237681F900167EB8 /* THMainViewController.m in Sources */,
 				D61FA4F1236BF83B00E91389 /* ViewController.m in Sources */,
+				D62ADCF3237681AD00167EB8 /* THControlKnob.m in Sources */,
+				D62ADCF5237681AD00167EB8 /* THPlayButton.m in Sources */,
+				D62ADCF4237681AD00167EB8 /* THIndicatorLight.m in Sources */,
 				D6231A2B236D4BE6006B249E /* DKViewController.m in Sources */,
 				D62ADCE4237649FE00167EB8 /* DKSpeechConfig.m in Sources */,
 				D6231A28236D2C90006B249E /* DKVideoAssetHandle.m in Sources */,
 				D61FA4FF236BF83D00E91389 /* main.m in Sources */,
 				D62ADCE12376449600167EB8 /* DKSpeechManager.m in Sources */,
+				D62ADD01237682A900167EB8 /* DKAudioPlayerManager.m in Sources */,
+				D62ADCF6237681AD00167EB8 /* UIColor+THAdditions.m in Sources */,
 				D61FA4EE236BF83B00E91389 /* AppDelegate.m in Sources */,
 				D6F57943236C1216003CFCEC /* DKViedoWritter.m in Sources */,
 				D6F57940236C0F07003CFCEC /* DKCaptureService.m in Sources */,

@@ -30,20 +30,24 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-    if (self.index == 0) {
-        [[DKSpeechManager sharedInstance] speak];
-    }else if (self.index == 1){
-        [[DKSpeechManager sharedInstance] pauseSpeakingAtBoundary:AVSpeechBoundaryImmediate];
-    }else if (self.index == 2){
-        [[DKSpeechManager sharedInstance] continueSpeaking];
-    }else if (self.index == 3){
-        [[DKSpeechManager sharedInstance] stopSpeakingAtBoundary:AVSpeechBoundaryImmediate];
-    }else if (self.index == 4){
-        [[DKSpeechManager sharedInstance] continueSpeaking];
-    }else if (self.index == 5){
-        self.index = -1;
-    }
-    self.index ++;
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *vc = [storyBoard instantiateViewControllerWithIdentifier:@"THMainViewController"];
+    [self presentViewController:vc animated:YES completion:nil];
+    
+//    if (self.index == 0) {
+//        [[DKSpeechManager sharedInstance] speak];
+//    }else if (self.index == 1){
+//        [[DKSpeechManager sharedInstance] pauseSpeakingAtBoundary:AVSpeechBoundaryImmediate];
+//    }else if (self.index == 2){
+//        [[DKSpeechManager sharedInstance] continueSpeaking];
+//    }else if (self.index == 3){
+//        [[DKSpeechManager sharedInstance] stopSpeakingAtBoundary:AVSpeechBoundaryImmediate];
+//    }else if (self.index == 4){
+//        [[DKSpeechManager sharedInstance] continueSpeaking];
+//    }else if (self.index == 5){
+//        self.index = -1;
+//    }
+//    self.index ++;
 }
 
 #pragma DKSpeechManagerDelegate

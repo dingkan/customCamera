@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface AppDelegate ()
 
@@ -25,6 +26,17 @@
     ViewController *vc = [[ViewController alloc]init];
     self.window.rootViewController = vc;
     
+    
+    //配置音频会话
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    NSError *error = nil;
+    if ([session setCategory:AVAudioSessionCategoryPlayback error:&error]) {
+        NSLog(@"AVAudioSession setCategory error = %@",error.userInfo);
+    }
+    
+    if ([session setActive:YES error:&error]) {
+        NSLog(@"AVAudioSession setActive error = %@",error.userInfo);
+    }
     
     return YES;
 }
