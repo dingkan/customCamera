@@ -17,10 +17,12 @@
 
 @implementation DKAudioPlayerManager
 
--(instancetype)initWithFileName:(NSString *)fileName delegate:(id<DKAudioPlayerManagerDelegate>)delegate{
+-(instancetype)initWithFileName:(NSString *)filePath delegate:(id<DKAudioPlayerManagerDelegate>)delegate{
     if (self = [super init]) {
         self.delegate = delegate;
-        self.player = [self playerWithFile:fileName];
+        self.player = [self playerWithFile:filePath];
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didChangeRate:) name:AVAudioSessionInterruptionNotification object:[AVAudioSession sharedInstance]];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didChangeRate:) name:AVAudioSessionRouteChangeNotification object:[AVAudioSession sharedInstance]];
     }
     return self;
@@ -86,8 +88,9 @@
 }
 
 -(AVAudioPlayer *)playerWithFile:(NSString *)file{
-    NSURL *fileUrl = [[NSBundle mainBundle] URLForResource:file withExtension:@"caf"];
+    NSURL *fileUrl = [NSURL fileURLWithPath:file];
     NSError *error = nil;
+    
     AVAudioPlayer *player = [[AVAudioPlayer alloc]initWithContentsOfURL:fileUrl error:&error];
     if (player) {
         //无限循环

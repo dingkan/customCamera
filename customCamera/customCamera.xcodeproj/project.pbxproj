@@ -29,6 +29,7 @@
 		D62ADCF9237681AD00167EB8 /* bass.caf in Resources */ = {isa = PBXBuildFile; fileRef = D62ADCF2237681AD00167EB8 /* bass.caf */; };
 		D62ADCFD237681F900167EB8 /* THMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADCFC237681F900167EB8 /* THMainViewController.m */; };
 		D62ADD01237682A900167EB8 /* DKAudioPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ADD00237682A900167EB8 /* DKAudioPlayerManager.m */; };
+		D632471723792B2C0070F7B1 /* DKAudioRecorderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D632471623792B2C0070F7B1 /* DKAudioRecorderManager.m */; };
 		D6F57940236C0F07003CFCEC /* DKCaptureService.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5793F236C0F07003CFCEC /* DKCaptureService.m */; };
 		D6F57943236C1216003CFCEC /* DKViedoWritter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F57942236C1216003CFCEC /* DKViedoWritter.m */; };
 /* End PBXBuildFile section */
@@ -92,6 +93,8 @@
 		D62ADCFC237681F900167EB8 /* THMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMainViewController.m; sourceTree = "<group>"; };
 		D62ADCFF237682A900167EB8 /* DKAudioPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAudioPlayerManager.h; sourceTree = "<group>"; };
 		D62ADD00237682A900167EB8 /* DKAudioPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAudioPlayerManager.m; sourceTree = "<group>"; };
+		D632471523792B2C0070F7B1 /* DKAudioRecorderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAudioRecorderManager.h; sourceTree = "<group>"; };
+		D632471623792B2C0070F7B1 /* DKAudioRecorderManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAudioRecorderManager.m; sourceTree = "<group>"; };
 		D6F5793E236C0F07003CFCEC /* DKCaptureService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKCaptureService.h; sourceTree = "<group>"; };
 		D6F5793F236C0F07003CFCEC /* DKCaptureService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKCaptureService.m; sourceTree = "<group>"; };
 		D6F57941236C1216003CFCEC /* DKViedoWritter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKViedoWritter.h; sourceTree = "<group>"; };
@@ -243,6 +246,8 @@
 			children = (
 				D62ADCFF237682A900167EB8 /* DKAudioPlayerManager.h */,
 				D62ADD00237682A900167EB8 /* DKAudioPlayerManager.m */,
+				D632471523792B2C0070F7B1 /* DKAudioRecorderManager.h */,
+				D632471623792B2C0070F7B1 /* DKAudioRecorderManager.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -411,6 +416,7 @@
 				D6F57943236C1216003CFCEC /* DKViedoWritter.m in Sources */,
 				D6F57940236C0F07003CFCEC /* DKCaptureService.m in Sources */,
 				D6231A2E236D56A8006B249E /* DKCameraManager.m in Sources */,
+				D632471723792B2C0070F7B1 /* DKAudioRecorderManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

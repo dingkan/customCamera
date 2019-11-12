@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)adjustVolume:(float)volume;
 - (void)adjustRate:(float)rate;
 
--(instancetype)initWithFileName:(NSString *)fileName delegate:(id<DKAudioPlayerManagerDelegate>)delegate;
+-(instancetype)initWithFileName:(NSString *)filePath delegate:(id<DKAudioPlayerManagerDelegate>)delegate;
 
 @end
 
